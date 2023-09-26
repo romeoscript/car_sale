@@ -33,9 +33,9 @@ function Footer() {
                   style={{ fontSize: "14px" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://jephunneh.com/"
+                  href="https://github.com/romeoscript"
                 >
-                  Design by cjephuneh
+                  Design by Romeoscript
                 </a>
               </li>
             </ul>

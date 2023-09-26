@@ -1,5 +1,18 @@
 @use "../global/" as *;
 
+.mobile_menu{
+  display: none;
+}
+
+@media (max-width:768px) {
+  .mobile_menu{
+    display: block;
+  }
+}
+
+.mobile-navbar1{
+  height: 100vh!important;
+}
 .navbar {
   max-width: 133rem;
   width: 100%;

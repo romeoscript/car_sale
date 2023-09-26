@@ -24,7 +24,7 @@ body {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #ff4d30 #ffffff;
+  scrollbar-color: steelblue #ffffff;
 }
 
 /* Chrome, Edge and Safari */
@@ -48,11 +48,11 @@ body {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #ff4d30;
+  background-color: steelblue;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #ff4d30;
+  background-color: steelblue;
 }
 
 *::-webkit-scrollbar-thumb:active {
@@ -97,7 +97,7 @@ body {
   transition: all 0.3s;
 }
 .navbar__links a:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 @media (max-width: 1000px) {
   .navbar__links {
@@ -123,10 +123,10 @@ body {
   transition: all 0.3s;
 }
 .navbar__buttons__sign-in:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 .navbar__buttons__register {
-  background-color: #ff4d30;
+  background-color: steelblue;
   color: white;
   padding: 1.5rem 3rem;
   border-radius: 3px;
@@ -148,7 +148,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-hamb:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 @media (max-width: 1000px) {
   .mobile-hamb {
@@ -179,7 +179,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-navbar__close:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 .mobile-navbar__links {
   display: flex;
@@ -196,7 +196,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-navbar__links li a:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 
 .open-nav {
@@ -262,7 +262,7 @@ body {
   margin-bottom: 2.3rem;
 }
 .hero-content__text h1 span {
-  color: #ff4d30;
+  color: steelblue;
 }
 .hero-content__text p {
   font-size: 1.6rem;
@@ -288,12 +288,12 @@ body {
   font-weight: 700;
 }
 .hero-content__text__btns__book-ride {
-  background-color: #ff4d30;
+  background-color: steelblue;
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid steelblue;
 }
 @media (max-width: 450px) {
   .hero-content__text__btns__book-ride {
@@ -332,7 +332,7 @@ body {
   position: fixed;
   font-size: 2.5rem;
   color: white;
-  background-color: #ff4d30;
+  background-color: steelblue;
   border: 3px solid white;
   width: 2rem;
   height: 2rem;
@@ -395,7 +395,7 @@ body {
   gap: 2rem;
 }
 .book-content__box .box-form b {
-  color: #ff4d30;
+  color: steelblue;
 }
 @media (max-width: 1000px) {
   .book-content__box .box-form {
@@ -417,7 +417,7 @@ body {
   margin-bottom: 1.2rem;
 }
 .book-content__box .box-form__car-type label i {
-  color: #ff4d30;
+  color: steelblue;
 }
 .book-content__box .box-form__car-type select {
   font-size: 1.5rem;
@@ -446,7 +446,7 @@ body {
   margin-bottom: 1.2rem;
 }
 .book-content__box .box-form__car-time label i {
-  color: #ff4d30;
+  color: steelblue;
 }
 .book-content__box .box-form__car-time ::-webkit-datetime-edit {
   padding: 1.3rem 1.3rem;
@@ -465,7 +465,7 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   color: white;
-  background-color: #ff4d30;
+  background-color: steelblue;
   box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
   cursor: pointer;
   transition: all 0.3s;
@@ -561,7 +561,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  background-color: #ff4d30;
+  background-color: steelblue;
   color: white;
   align-items: center;
 }
@@ -588,7 +588,7 @@ body {
 .booking-modal__message h4 {
   font-size: 1.9rem;
   font-weight: 700;
-  color: #ff4d30;
+  color: steelblue;
 }
 .booking-modal__message h4 i {
   font-size: 2.5rem;
@@ -619,7 +619,7 @@ body {
 }
 .booking-modal__car-info__dates h5 {
   font-size: 1.8rem;
-  color: #ff4d30;
+  color: steelblue;
 }
 .booking-modal__car-info__dates span {
   display: flex;
@@ -662,7 +662,7 @@ body {
 }
 .booking-modal__car-info__model h5 {
   font-size: 1.8rem;
-  color: #ff4d30;
+  color: steelblue;
 }
 .booking-modal__car-info__model h5 span {
   color: #010103;
@@ -680,7 +680,7 @@ body {
 .booking-modal__person-info h4 {
   font-size: 1.8rem;
   text-transform: uppercase;
-  color: #ff4d30;
+  color: steelblue;
   margin-bottom: 2rem;
 }
 
@@ -733,7 +733,7 @@ body {
   color: #777777;
 }
 .info-form__2col span label b, .info-form__1col span label b {
-  color: #ff4d30;
+  color: steelblue;
 }
 .info-form__2col span input, .info-form__1col span input {
   padding: 14px 15px;
@@ -760,7 +760,7 @@ body {
   font-size: 2.4rem;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: steelblue;
   border: 1px solid yellow;
   padding: 1.2rem 2rem;
   cursor: pointer;
@@ -903,7 +903,7 @@ body {
   text-align: left;
 }
 .pick-box button:hover {
-  background-color: #ff4d30;
+  background-color: steelblue;
   color: white;
 }
 
@@ -926,7 +926,7 @@ body {
 }
 .pick-description__price {
   width: 100%;
-  background-color: #ff4d30;
+  background-color: steelblue;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -966,7 +966,7 @@ body {
   font-weight: 600;
   color: white;
   font-family: "Poppins", sans-serif;
-  background-color: #ff4d30;
+  background-color: steelblue;
   padding: 1rem 1rem;
   display: flex;
   width: 100%;
@@ -999,7 +999,7 @@ body {
 }
 
 .colored-button {
-  background-color: #ff4d30 !important;
+  background-color: steelblue !important;
   color: white;
 }
 
@@ -1067,7 +1067,7 @@ body {
   }
 }
 .banner-content__text span {
-  color: #ff4d30;
+  color: steelblue;
   font-weight: 500;
 }
 
@@ -1144,12 +1144,12 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: steelblue;
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid steelblue;
   font-size: 1.6rem;
   width: -moz-fit-content;
   width: fit-content;
@@ -1281,7 +1281,7 @@ body {
 
 .quotes-icon {
   font-size: 6.2rem;
-  color: #ff4d30;
+  color: steelblue;
   position: absolute;
   bottom: 33px;
   right: 60px;
@@ -1395,7 +1395,7 @@ body {
 }
 
 .active-question {
-  background-color: #ff4d30;
+  background-color: steelblue;
   color: white;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
 }
@@ -1503,7 +1503,7 @@ footer {
   transition: all 0.2s;
 }
 .footer-content__1 li a:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 .footer-content__1 li:nth-child(1) {
   font-size: 2.4rem;
@@ -1538,7 +1538,7 @@ footer {
   transition: all 0.2s;
 }
 .footer-content__2 a:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 .footer-content__2 li {
   font-size: 1.6rem;
@@ -1573,12 +1573,12 @@ footer {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: steelblue;
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid steelblue;
   font-size: 1.6rem;
   width: -moz-fit-content;
   width: fit-content;
@@ -1631,7 +1631,7 @@ footer {
   transition: all 0.2s;
 }
 .hero-pages__text p a:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 
 .about-main {
@@ -1789,7 +1789,7 @@ footer {
   font-size: 2.7rem;
   gap: 1rem;
   align-items: center;
-  color: #ff4d30;
+  color: steelblue;
   white-space: nowrap;
 }
 
@@ -1901,12 +1901,12 @@ footer {
   color: #010103;
 }
 .models-div__box__descr__name-price__btn {
-  background-color: #ff4d30;
+  background-color: steelblue;
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid steelblue;
   font-size: 1.8rem;
   cursor: pointer;
 }
@@ -2027,7 +2027,7 @@ footer {
   margin-bottom: 0.5rem;
 }
 .contact-div__text a:hover {
-  color: #ff4d30;
+  color: steelblue;
 }
 .contact-div__form {
   display: flex;
@@ -2043,7 +2043,7 @@ footer {
   margin-bottom: 1rem;
 }
 .contact-div__form form label b {
-  color: #ff4d30;
+  color: steelblue;
 }
 .contact-div__form form input {
   background-color: #f2f2f2;
@@ -2063,12 +2063,12 @@ footer {
   margin-bottom: 2.5rem;
 }
 .contact-div__form form button {
-  background-color: #ff4d30;
+  background-color: steelblue;
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid steelblue;
   color: white;
   font-size: 1.8rem;
   font-weight: 600;

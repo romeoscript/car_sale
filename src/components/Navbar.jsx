@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import Logo from "../images/logo/logo.png";
 import { useState } from "react";
+// import '../styles/NavbarStyles/_navbar.scss'
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
+import { BiMenuAltRight } from 'react-icons/bi'
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -8,12 +12,22 @@ function Navbar() {
   const openNav = () => {
     setNav(!nav);
   };
-
+  const mobileNavStyle = {
+    height: "100vh",
+    position: "fixed",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    top:0,
+    background:'white',
+    width:'100%',
+    zIndex:'100'
+  };
   return (
     <>
       <nav>
         {/* mobile */}
-        <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
+        {nav && <div className='mobile-navbar1' style={mobileNavStyle}>
           <div onClick={openNav} className="mobile-navbar__close">
             <i className="fa-solid fa-xmark"></i>
           </div>
@@ -49,7 +63,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div>}
 
         {/* desktop */}
 
@@ -106,8 +120,8 @@ function Navbar() {
           </div>
 
           {/* mobile */}
-          <div className="mobile-hamb" onClick={openNav}>
-            <i className="fa-solid fa-bars"></i>
+          <div className='mobile_menu'>
+            {nav ? < CloseIcon onClick={openNav} style={{ cursor: 'pointer',fontSize:'30px' }} /> : <BiMenuAltRight onClick={openNav} style={{ cursor: 'pointer',fontSize:'30px' }} />}
           </div>
         </div>
       </nav>

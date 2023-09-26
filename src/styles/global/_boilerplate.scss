@@ -29,7 +29,7 @@ body {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #ff4d30 #ffffff;
+  scrollbar-color: steelblue #ffffff;
 }
 
 /* Chrome, Edge and Safari */
@@ -52,11 +52,11 @@ body {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #ff4d30;
+  background-color: steelblue;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #ff4d30;
+  background-color: steelblue;
 }
 
 *::-webkit-scrollbar-thumb:active {
