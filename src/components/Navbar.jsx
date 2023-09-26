@@ -3,7 +3,7 @@ import Logo from "../images/logo/logo.png";
 import { useState } from "react";
 // import '../styles/NavbarStyles/_navbar.scss'
 import CloseIcon from '@mui/icons-material/Close';
-import MenuIcon from '@mui/icons-material/Menu';
+
 import { BiMenuAltRight } from 'react-icons/bi'
 
 function Navbar() {
